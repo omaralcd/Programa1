@@ -39,6 +39,10 @@
 					echo "<tr>";
 					echo "<td>".$registro["nombre"]."</td>";
 					echo "<td>".$registro["genero"]."</td>";
+					if(txtgenero == "femenino")
+					{
+						echo '<font color="darkred">.$registro["comentario"].</font>';
+					}
 					echo "<td>".$registro["comentario"]."</td>";
 				?>
 		<?php
